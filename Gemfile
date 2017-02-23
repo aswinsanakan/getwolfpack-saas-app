@@ -3,6 +3,15 @@ source 'https://rubygems.org'
 gem 'haml-rails'
 gem 'bootstrap-sass'
 
+group :development, :test do
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'minitest-rails'
+  gem 'minitest-spec-rails'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
