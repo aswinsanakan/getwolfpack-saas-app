@@ -1,5 +1,11 @@
 == README
 
+IGNORE_THIS_STUFF:
+  source: prograils
+  check_at: must_respond_with - module is not added
+  stopped_at: Dashboard for authenticated users
+*------*
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

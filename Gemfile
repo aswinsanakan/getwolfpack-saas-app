@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'haml-rails'
 gem 'bootstrap-sass'
+gem 'devise'
+gem 'simple_form'
 
 group :development, :test do
   gem 'factory_girl_rails'
